@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The City Never Sleeps | kocity.cc</title>
+  <meta name="description" content="The City Never Sleeps is a community-hosted Knockout City private server with live matches, in-game events, and the first new game update since the official shutdown.">
+  <meta property="og:title" content="The City Never Sleeps | Knockout City community server">
+  <meta property="og:image" content="assets/tcns-banner.jpg">
+  <meta name="theme-color" content="#07000f">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preload" href="fonts/brda-extrabold.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css?v=41">
+</head>
+<body data-brand="tcns">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="home-logo" href="index.html" aria-label="kocity.cc home"><img src="assets/kocity-logo.png" alt="kocity.cc" width="840" height="381"></a>
+      <nav aria-label="Sections">
+        <ul class="tabs">
+          <li><a href="index.html" style="--tab:var(--ko-yellow)"><span class="tab-icon"><i data-i="home"></i></span>Home</a></li>
+          <li><a href="tcns.html" aria-current="page" style="--tab:var(--tcns-teal)"><span class="ball tcns"></span><span class="tab-long">The City Never Sleeps</span><span class="tab-short">TCNS</span></a></li>
+          <li><a href="launcher.html" style="--tab:var(--launcher-amber)"><span class="ball launcher"></span><span class="tab-long">Pirate Radio Launcher</span><span class="tab-short">Launcher</span></a></li>
+          <li><a href="labs.html" style="--tab:var(--labs-tint)"><span class="ball labs"></span><span class="tab-long">Pirate Radio Labs</span><span class="tab-short">Labs</span></a></li>
+        </ul>
+      </nav>
+      <div class="top-links">
+        <a href="https://discord.gg/F8anYfBduR" data-tcns-discord rel="noopener" aria-label="Discord"><i data-i="discord"></i><span>Discord</span></a>
+        <a href="https://patreon.com/tcns2" rel="noopener" aria-label="Patreon"><i data-i="patreon"></i><span>Patreon</span></a>
+        <a class="btn btn-primary btn-sm" href="launcher.html#download"><i data-i="download"></i>Play</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-in" style="grid-template-columns:1fr; justify-items:center; text-align:center">
+        <div>
+          <h1><img class="hero-mark" style="margin-inline:auto" src="assets/tcns-logo.png" alt="The City Never Sleeps" width="900" height="636" fetchpriority="high"></h1>
+          <p class="hero-lede" style="margin-inline:auto">Sunset falls on Knockout City, but <strong><em>The City Never Sleeps!</strong></em><br>Join thousands of members in experiencing the largest private server for KOCity!</p>
+          <div class="pill-row" style="justify-content:center" aria-live="polite">
+            <span class="pill" data-tcns="state"><span class="dot"></span>Checking status…</span>
+            <span class="pill"><i data-i="users"></i><span class="num"><span data-tcns="players">0</span> / <span data-tcns="max">100</span></span> players</span>
+            <span class="pill"><i data-i="globe"></i>Region: <span data-tcns="region">NA</span></span>
+          </div>
+          <div class="btn-row" style="justify-content:center">
+            <a class="btn btn-primary" href="launcher.html#download"><i data-i="download"></i>Play on TCNS</a>
+            <a class="btn btn-ghost" href="https://discord.gg/F8anYfBduR" data-tcns-discord rel="noopener"><i data-i="discord"></i>Join the Discord</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="live">
+      <div class="wrap split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Live status</p>
+          <h2>Find a full lobby.</h2>
+          <p>Live Status for all players is tracked 24/7. This chart shows the average player count for each hour last week, helping you find the best time to brawl. A live player list is updated minute-by-minute in our Discord server, displaying detailed player counts, locations, and active playlists to help you find exactly where to queue.</p>
+          <a class="text-link" href="https://discord.gg/F8anYfBduR" data-tcns-discord rel="noopener">Find details in the Discord <i data-i="arrow"></i></a>
+        </div>
+        <div class="panel reveal" style="--d:1; background:rgba(7,0,15,.8)">
+          <div class="panel-head"><span>The City Never Sleeps</span>
+            <button class="icon-btn" type="button" data-refresh aria-label="Refresh player count"><i data-i="refresh"></i></button>
+          </div>
+          <div class="stats" style="padding:20px; gap:12px" aria-live="polite">
+            <div class="stat"><b class="num" data-tcns="players">0</b><span>playing now</span></div>
+            <div class="stat"><b class="num" data-tcns="max">100</b><span>player capacity</span></div>
+            <div class="stat"><b class="num" data-stat="accounts">2,000+</b><span>kocity.cc accounts</span></div>
+          </div>
+          <div class="chart" data-activity>
+            <div class="skeleton" style="width:40%"></div><div class="skeleton" style="height:120px"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="spotlight reveal">
+          <img class="spotlight-key" src="assets/holoween-promo.jpg" alt="Holo-Ween 2026 key art: a pumpkin-headed brawler reaching toward the event's rewards under a green moon" width="1600" height="900">
+          <div class="spotlight-body">
+            <div>
+              <h2>The first game update <em>since the shutdown.</em></h2>
+              <p>For Holo-Ween, we didn't just flip on an old playlist. We shipped a full-on <a href="https://patch-notes.pirate-radio.tandashi.dev/holo-ween-2026/" rel="noopener">content update</a> to every player on the server; it was the first new Knockout City update since the official game went offline.</p>
+            </div>
+            <ul class="checks">
+              <li><i data-i="check"></i><span><strong>Delivered automatically.</strong> The Pirate Radio Launcher fetches the server's update before the game starts. Nothing to install by hand.</span></li>
+              <li><i data-i="check"></i><span><strong>Works with your mods.</strong> The launcher builds your mods on top of the server's update, so you get the best of both worlds.</span></li>
+              <li><i data-i="check"></i><span><strong>More on the way.</strong> Holo-Ween was just the start; We're always looking for new ways to excite players, so stay tuned!</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="split-copy reveal">
+          <p class="eyebrow"><i data-i="calendar"></i>In-game events</p>
+          <h2>Knockout City<br>is <em>alive.</em></h2>
+          <p><strong>TCNS</strong> runs events inside the game itself, with content delivered to your client through the launcher.</p>
+        </div>
+        <ol class="timeline">
+          <li class="reveal" style="--c:#f08c0c">
+            <span class="when">October 2026</span>
+            <div><h3><img class="event-logo" src="assets/holoween-logo.png" alt="Holo-Ween" width="720" height="152" loading="lazy"></h3><p>The first content update to Knockout City since the shutdown, fully powered by the players.</p><a class="text-link" style="margin-top:10px; color:var(--c)" href="https://patch-notes.pirate-radio.tandashi.dev/holo-ween-2026/" rel="noopener">View the patch notes <i data-i="arrow"></i></a></div>
+          </li>
+          <li class="reveal" style="--c:var(--ko-yellow); --d:1">
+            <span class="when">Up next</span>
+            <div><h3>To be announced...</h3><p>The next event is in the works! Announcements, patch notes, and schedules will be posted as soon as they're ready.</p><a class="text-link" style="margin-top:10px; color:var(--c)" href="https://patch-notes.pirate-radio.tandashi.dev/" rel="noopener">Pirate Radio Patch Notes <i data-i="arrow"></i></a></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Community</p>
+          <h2>We do it all for you, brawler!</h2>
+        </div>
+        <div class="grid grid-2">
+          <article class="card reveal">
+            <h3>Join the Discord</h3>
+            <p>Find minute-by-minute player status, stay in-the-know about upcoming events, access community support, or just chat with fellow brawlers! That's <strong>TCNS</strong>, baby!</p>
+            <p style="margin-top:20px"><a class="btn btn-primary btn-discord" href="https://discord.gg/F8anYfBduR" data-tcns-discord rel="noopener"><i data-i="discord"></i>Join TCNS on Discord</a></p>
+          </article>
+          <article class="card reveal" style="--d:1">
+            <h3>Fund the server</h3>
+            <p><strong>TCNS</strong> will always be free to play, but is thankful for your support! All funds go toward maintaining server status, and members receive various exclusive in-game perks!</p>
+            <p style="margin-top:20px"><a class="btn btn-primary btn-white" href="https://patreon.com/tcns2" rel="noopener"><i data-i="patreon"></i>Support us on Patreon</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta roll">
+      <div class="wrap">
+        <div>
+        <h2>Ready to brawl?</h2>
+        <p>You need the Pirate Radio Launcher to connect. Install it, sign in with kocity.cc, and pick <strong>The City Never Sleeps</strong> from the server list.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary btn-launcher" href="launcher.html">Get the launcher <i data-i="arrow"></i></a>
+          <a class="btn btn-ghost" href="index.html#how">See all four steps</a>
+        </div>
+        </div>
+        <div class="cta-ball" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <div>
+        <img src="assets/kocity-logo.png" alt="kocity.cc" width="840" height="381" loading="lazy">
+        <small>An independent community project. Not affiliated with Velan Studios.<br>KNOCKOUT CITY is a registered trademark of its respective owners.</small>
+      </div>
+      <nav aria-label="Footer">
+        <div>
+          <p class="foot-h">Project</p>
+          <a href="https://github.com/KnockoutCity-Pirate-Radio" rel="noopener">GitHub</a>
+          <a href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Artifacts/releases" rel="noopener">Releases</a>
+          <a href="https://kocity.cc/docs">Docs</a>
+        </div>
+        <div>
+          <p class="foot-h">Community</p>
+          <a href="https://discord.gg/F8anYfBduR" data-tcns-discord rel="noopener">Discord</a>
+          <a href="https://patreon.com/tcns2" rel="noopener">Patreon</a>
+        </div>
+      </nav>
+    </div>
+    <p class="wrap foot-base">&copy; 2026 kocity.cc &mdash; Built with <span aria-hidden="true">&#x2764;&#xFE0F;</span><span class="sr-only">love</span> by the community</p>
+  </footer>
+
+  <script src="js/main.js?v=16" defer></script>
+</body>
+</html>

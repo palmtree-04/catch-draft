@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kocity.cc | Knockout City, revived.</title>
+  <meta name="description" content="kocity.cc is your gateway to dodgebrawling: the sign-in service for the largest Knockout City private server in North America. Grab the Pirate Radio Launcher and play on The City Never Sleeps.">
+  <meta property="og:title" content="kocity.cc | Knockout City, revived.">
+  <meta property="og:description" content="Your gateway to dodgebrawling. Sign in and play Knockout City on The City Never Sleeps.">
+  <meta property="og:image" content="https://kocity.cc/assets/social-share.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#4b006e">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preload" href="fonts/loew-heavy.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css?v=41">
+</head>
+<body data-brand="kocity">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="home-logo" href="index.html" aria-label="kocity.cc home"><img src="assets/kocity-logo.png" alt="kocity.cc" width="840" height="381"></a>
+      <nav aria-label="Sections">
+        <ul class="tabs">
+          <li><a href="index.html" aria-current="page" style="--tab:var(--ko-yellow)"><span class="tab-icon"><i data-i="home"></i></span>Home</a></li>
+          <li><a href="tcns.html" style="--tab:var(--tcns-teal)"><span class="ball tcns"></span><span class="tab-long">The City Never Sleeps</span><span class="tab-short">TCNS</span></a></li>
+          <li><a href="launcher.html" style="--tab:var(--launcher-amber)"><span class="ball launcher"></span><span class="tab-long">Pirate Radio Launcher</span><span class="tab-short">Launcher</span></a></li>
+          <li><a href="labs.html" style="--tab:var(--labs-tint)"><span class="ball labs"></span><span class="tab-long">Pirate Radio Labs</span><span class="tab-short">Labs</span></a></li>
+        </ul>
+      </nav>
+      <div class="top-links">
+        <a href="https://discord.gg/FdvGezR3YY" rel="noopener" aria-label="Discord"><i data-i="discord"></i><span>Discord</span></a>
+        <a href="https://github.com/KnockoutCity-Pirate-Radio" rel="noopener" aria-label="GitHub"><i data-i="github"></i><span>GitHub</span></a>
+        <a href="https://kocity.cc/docs" aria-label="Docs"><i data-i="book"></i><span>Docs</span></a>
+        <a class="btn btn-primary btn-sm" href="launcher.html#download"><i data-i="download"></i>Play</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-in has-art">
+        <div>
+          <h1><span class="nowrap">Knockout City,</span> <em>revived.</em></h1>
+          <p class="hero-lede">Join <strong class="num" data-stat="accounts">2,000+</strong> brawlers playing across <strong class="num" data-stat="servers">1</strong> community-hosted server<span data-stat-plural="servers"></span>. Sign in and brawl. It's really that simple.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#how"><i data-i="how-to-play"></i>How to Play</a>
+            <a class="btn btn-ghost" href="tcns.html">Meet the server <i data-i="arrow"></i></a>
+          </div>
+        </div>
+        <img class="hero-art" src="assets/brawlers.png" alt="Three Knockout City brawlers, one holding a dodgeball" width="850" height="900" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Live servers</p>
+          <h2>Always someone to brawl.</h2>
+          <p>Join community-funded servers across multiple regions. Pick your server, jump in, and show 'em what you've got.</p>
+          <a class="text-link" href="tcns.html#live">See peak hours on The City Never Sleeps <i data-i="arrow"></i></a>
+        </div>
+        <div class="panel reveal" style="--d:1">
+          <div class="panel-head"><span>Server directory</span>
+            <button class="icon-btn" type="button" data-refresh aria-label="Refresh server list"><i data-i="refresh"></i></button>
+          </div>
+          <table class="servers">
+            <thead><tr><th scope="col">Server</th><th scope="col">Region</th><th scope="col">Status</th><th scope="col">Players</th></tr></thead>
+            <tbody data-server-list aria-live="polite"><tr><td class="msg" colspan="4">Loading servers…</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">What is kocity.cc?</p>
+          <h2>Your gateway to dodgebrawling.</h2>
+          <p>kocity.cc is the sign-in service that opens the door to the largest Knockout City private server in North America. Sign up, sign in, and you get instant access to our server(s).</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="card-icon"><i data-i="sign-up"></i></div>
+            <h3>Sign up with us</h3>
+            <p>Inside the <a href="launcher.html">Pirate Radio Launcher</a>, log-in to KOCity.cc through the Accounts tab. No account? No problem, you can sign up just as easily. Verify your log-in with a code, and hit the streets!</p>
+          </article>
+          <article class="card reveal" style="--d:1">
+            <div class="card-icon"><i data-i="server"></i></div>
+            <h3>Live server status</h3>
+            <p>We report real-time player statuses around the clock, letting you know exactly how many players are online. Detailed information is also available in the <a href="https://discord.gg/FdvGezR3YY" rel="noopener">Community Discord</a>!</p>
+          </article>
+          <article class="card reveal" style="--d:2">
+            <div class="card-icon"><i data-i="made-with-love"></i></div>
+            <h3>Community-made, with love</h3>
+            <p>Velan provides the game, we provide you the tools, apps, and server access. Purely for the love of the game. Wanna support us? <a href="https://www.patreon.com/TCNS2" rel="noopener">Become a patron!</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="how">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Getting started</p>
+          <h2>See the Hideout again in four steps.</h2>
+          <p>Getting started with us is easy! Just follow these simple steps. Need help? <a href="https://discord.gg/FdvGezR3YY" rel="noopener">Ask in the Discord.</a></p>
+        </div>
+        <ol class="journey">
+          <li class="reveal" style="--c:#ffeecd">
+            <h3>Get the game</h3>
+            <p>Install Knockout City: Private Server Edition from Steam. Don't worry, it's free!</p>
+            <a class="text-link" href="https://store.steampowered.com/app/2915930" data-steam="steam://store/2915930" rel="noopener">Find it on Steam <i data-i="arrow"></i></a>
+          </li>
+          <li class="reveal" style="--c:#ff9600; --d:1">
+            <h3>Install the launcher</h3>
+            <p>The Pirate Radio Launcher is the bridge between the game and the community servers. All you have to do is sign up!</p>
+            <a class="text-link" href="launcher.html">Pirate Radio Launcher <i data-i="arrow"></i></a>
+          </li>
+          <li class="reveal" style="--c:#fff000; --d:2">
+            <h3>Sign in with kocity.cc</h3>
+            <p>The launcher walks you through the process. After accessing the sign-in page, you get a code, paste it into the launcher, and you're done!</p>
+            <a class="text-link" href="https://api.kocity.cc/web/login" rel="noopener">Manual sign-in <i data-i="arrow"></i></a>
+          </li>
+          <li class="reveal" style="--c:#43cec0; --d:3">
+            <h3>Pick a server and play</h3>
+            <p>Choose TCNS from the server list, hit launch, and the game will place you in the Hideout just like the good ol' days.</p>
+            <a class="text-link" href="tcns.html">The City Never Sleeps <i data-i="arrow"></i></a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap grid">
+        <a class="brand-card wide reveal" href="tcns.html" style="--img:url('../assets/tcns-skyline.jpg'); --c:var(--tcns-teal)">
+          <div>
+            <span class="eyebrow" style="color:var(--tcns-teal)">Next stop · The server</span>
+            <h3>The City Never Sleeps</h3>
+            <p>The community-hosted server where Knockout City lives on, featuring the latest updates and community-driven content.</p>
+            <span class="text-link">Learn all the details <i data-i="arrow"></i></span>
+          </div>
+          <img class="brand-logo" src="assets/tcns-logo.png" alt="" width="900" height="636" loading="lazy">
+        </a>
+        <div class="grid grid-2">
+          <a class="brand-card launcher reveal" href="launcher.html">
+            <img class="brand-logo" src="assets/pr-launcher-logo-white.png" alt="" width="900" height="292" loading="lazy">
+            <h3>Pirate Radio Launcher</h3>
+            <p>Your one-way ticket back to Knockout City.</p>
+            <span class="text-link">Get the launcher <i data-i="arrow"></i></span>
+          </a>
+          <a class="brand-card labs reveal" href="labs.html" style="--d:1">
+            <img class="brand-logo" src="assets/pr-labs-logo-white.png" alt="" width="900" height="292" loading="lazy">
+            <h3>Pirate Radio Labs</h3>
+            <p>View game files, draft mods, and publish them directly to the launcher.</p>
+            <span class="text-link">Start modding <i data-i="arrow"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <div>
+        <img src="assets/kocity-logo.png" alt="kocity.cc" width="840" height="381" loading="lazy">
+        <small>An independent community project. Not affiliated with Velan Studios.<br>KNOCKOUT CITY is a registered trademark of its respective owners.</small>
+      </div>
+      <nav aria-label="Footer">
+        <div>
+          <p class="foot-h">Project</p>
+          <a href="https://github.com/KnockoutCity-Pirate-Radio" rel="noopener">GitHub</a>
+          <a href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Artifacts/releases" rel="noopener">Releases</a>
+          <a href="https://kocity.cc/docs">Docs</a>
+        </div>
+        <div>
+          <p class="foot-h">Community</p>
+          <a href="https://discord.gg/FdvGezR3YY" rel="noopener">Discord</a>
+          <a href="https://patreon.com/tcns2" rel="noopener">Patreon</a>
+        </div>
+      </nav>
+    </div>
+    <p class="wrap foot-base">&copy; 2026 kocity.cc &mdash; Built with <span aria-hidden="true">&#x2764;&#xFE0F;</span><span class="sr-only">love</span> by the community</p>
+  </footer>
+
+  <script src="js/main.js?v=16" defer></script>
+</body>
+</html>

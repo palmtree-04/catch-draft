@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pirate Radio Labs | kocity.cc</title>
+  <meta name="description" content="Pirate Radio Labs lets you explore Knockout City's game files, build mods, and ship them to the Pirate Radio Launcher's mod library. Now in public beta.">
+  <meta property="og:title" content="Pirate Radio Labs">
+  <meta property="og:image" content="assets/labs-lockup.jpg">
+  <meta name="theme-color" content="#26369b">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preload" href="fonts/loew-heavy.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css?v=41">
+</head>
+<body data-brand="labs">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="home-logo" href="index.html" aria-label="kocity.cc home"><img src="assets/kocity-logo.png" alt="kocity.cc" width="840" height="381"></a>
+      <nav aria-label="Sections">
+        <ul class="tabs">
+          <li><a href="index.html" style="--tab:var(--ko-yellow)"><span class="tab-icon"><i data-i="home"></i></span>Home</a></li>
+          <li><a href="tcns.html" style="--tab:var(--tcns-teal)"><span class="ball tcns"></span><span class="tab-long">The City Never Sleeps</span><span class="tab-short">TCNS</span></a></li>
+          <li><a href="launcher.html" style="--tab:var(--launcher-amber)"><span class="ball launcher"></span><span class="tab-long">Pirate Radio Launcher</span><span class="tab-short">Launcher</span></a></li>
+          <li><a href="labs.html" aria-current="page" style="--tab:var(--labs-tint)"><span class="ball labs"></span><span class="tab-long">Pirate Radio Labs</span><span class="tab-short">Labs</span></a></li>
+        </ul>
+      </nav>
+      <div class="top-links">
+        <a href="https://discord.gg/FdvGezR3YY" rel="noopener" aria-label="Discord"><i data-i="discord"></i><span>Discord</span></a>
+        <a href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods" rel="noopener" aria-label="GitHub"><i data-i="github"></i><span>GitHub</span></a>
+        <a href="https://kocity.cc/docs" aria-label="Docs"><i data-i="book"></i><span>Docs</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" data-product="labs">
+    <section class="hero" id="download">
+      <div class="wrap hero-in has-shot">
+        <div>
+          <img class="hero-mark" src="assets/pr-labs-logo-white.png" alt="Pirate Radio Labs" width="900" height="292" fetchpriority="high">
+          <h1>Mod the game. <em>Ship it.</em></h1>
+          <p class="hero-lede">Pirate Radio Labs is the unoffical File Explorer for Knockout City. Explore the game's files, draft custom content, and build/ship it to the Pirate Radio Launcher's Mods Library.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" data-dl-primary href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Artifacts/releases" rel="noopener"><i data-i="download"></i><span data-dl-label>Download Labs</span></a>
+            <span class="pill"><span class="tag">Beta</span><span class="num" data-version>v0.5.0-beta.3</span></span>
+          </div>
+          <p class="dl-others">Also for:
+            <span data-dl-item><a data-dl="deb" href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Artifacts/releases" rel="noopener">Linux .deb</a></span>
+            <span data-dl-item><a data-dl="rpm" href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Artifacts/releases" rel="noopener">Linux .rpm</a></span>
+          </p>
+        </div>
+        <button class="hero-shot" type="button" aria-label="Enlarge screenshot"><img src="assets/labs-screenshot-hd.png" alt="Pirate Radio Labs file explorer showing the game data folders" width="2712" height="1832"></button>
+        <dialog class="shot-view" aria-label="Screenshot">
+          <figure><img src="assets/labs-screenshot-hd.png" alt="Pirate Radio Labs file explorer showing the game data folders" width="2712" height="1832" loading="lazy"><figcaption>The Pirate Radio Labs' <b>File Explorer</b> tab</figcaption></figure>
+          <button class="shot-close" type="button" aria-label="Close">&times;</button>
+        </dialog>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><i data-i="flask"></i>What's in the lab</p>
+          <h2>All the tools for tinkering are here:</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="card-icon"><i data-i="browse"></i></div>
+            <h3>Browse game files</h3>
+            <p>The depths of the archives are instantly accessible; just tell Labs where to look and start exploring right away.</p>
+          </article>
+          <article class="card reveal" style="--d:1">
+            <div class="card-icon"><i data-i="preview"></i></div>
+            <h3>Preview <i>everything</i></h3>
+            <p>Inspect models, materials, textures, and get relevant previews on file attributes. Need a better look at certain files? Export them!</p>
+          </article>
+          <article class="card reveal" style="--d:2">
+            <div class="card-icon"><i data-i="publish"></i></div>
+            <h3>Test, then publish</h3>
+            <p>Package your work as a draft to access it in the Pirate Radio Launcher Mods Library. When it's ready, publish it to the launcher's Mod Store!.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">The pipeline</p>
+          <h2>Client-side modding made easy.</h2>
+        </div>
+        <ol class="journey" style="--c:#28288c; --ci:#fff">
+          <li class="reveal">
+            <h3>Explore</h3>
+            <p>The entire file system is explorable. Find files, add them to your draft, and get creative!</p>
+          </li>
+          <li class="reveal" style="--d:1">
+            <h3>Build</h3>
+            <p>Export relevant files from the directory, build your replacements, and override files from within your draft.</p>
+          </li>
+          <li class="reveal" style="--d:2">
+            <h3>Publish</h3>
+            <p>Add finishing touches and ship it directly to the Pirate Radio Launcher's Mod Store, where anyone and everyone can add it to their Mods Library.</p>
+          </li>
+          <li class="reveal" style="--c:#faae38; --ci:#fff; --d:3">
+            <h3>Play</h3>
+            <p>Players install it from Pirate Radio Launcher and see it in game.</p>
+            <a class="text-link" href="launcher.html">Pirate Radio Launcher <i data-i="arrow"></i></a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">What's new</p>
+          <h2>Build <span data-version>v0.5.0-beta.3</span></h2>
+          <p>Released <span data-release-date>recently</span>. Notes are pulled live from GitHub.</p>
+          <div class="notice" style="margin-top:22px">
+            <i data-i="info"></i>
+            <p><strong>Labs is in public beta.</strong> Things change between builds, and a mod made on an older build may need to be re-exported. Check the notes before you update.</p>
+          </div>
+        </div>
+        <div class="notes reveal" style="--d:1" data-notes aria-live="polite">
+          <div class="skeleton" style="width:30%"></div><div class="skeleton"></div><div class="skeleton" style="width:85%"></div><div class="skeleton" style="width:70%"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap">
+        <h2>Made something? Show it off.</h2>
+        <p>Get modding help, share work in progress, and see what other creators are building in the Discord.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="https://discord.gg/FdvGezR3YY" rel="noopener"><i data-i="discord"></i>Join the Discord</a>        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <div>
+        <img src="assets/kocity-logo.png" alt="kocity.cc" width="840" height="381" loading="lazy">
+        <small>An independent community project. Not affiliated with Velan Studios.<br>KNOCKOUT CITY is a registered trademark of its respective owners.</small>
+      </div>
+      <nav aria-label="Footer">
+        <div>
+          <p class="foot-h">Project</p>
+          <a href="https://github.com/KnockoutCity-Pirate-Radio" rel="noopener">GitHub</a>
+          <a href="https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Artifacts/releases" rel="noopener">Releases</a>
+          <a href="https://kocity.cc/docs">Docs</a>
+        </div>
+        <div>
+          <p class="foot-h">Community</p>
+          <a href="https://discord.gg/FdvGezR3YY" rel="noopener">Discord</a>
+          <a href="https://patreon.com/tcns2" rel="noopener">Patreon</a>
+        </div>
+      </nav>
+    </div>
+    <p class="wrap foot-base">&copy; 2026 kocity.cc &mdash; Built with <span aria-hidden="true">&#x2764;&#xFE0F;</span><span class="sr-only">love</span> by the community</p>
+  </footer>
+
+  <script src="js/main.js?v=16" defer></script>
+</body>
+</html>
